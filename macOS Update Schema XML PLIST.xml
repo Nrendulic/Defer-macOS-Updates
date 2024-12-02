@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>description</key>
+	<string></string>
+	<key>properties</key>
+	<dict>
+		<key>enforcedSoftwareUpdateMajorOSDeferredInstallDelay</key>
+		<dict>
+			<key>anyOf</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Not Configured</string>
+					<key>type</key>
+					<string>null</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Configured</string>
+					<key>type</key>
+					<string>integer</string>
+				</dict>
+			</array>
+			<key>description</key>
+			<string></string>
+			<key>property_order</key>
+			<integer>5</integer>
+			<key>title</key>
+			<string>Enforced Software Update Major OS Deferred Install Delay</string>
+		</dict>
+		<key>enforcedSoftwareUpdateMinorOSDeferredInstallDelay</key>
+		<dict>
+			<key>anyOf</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Not Configured</string>
+					<key>type</key>
+					<string>null</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Configured</string>
+					<key>type</key>
+					<string>integer</string>
+				</dict>
+			</array>
+			<key>description</key>
+			<string></string>
+			<key>property_order</key>
+			<integer>15</integer>
+			<key>title</key>
+			<string>Enforced Software Update Minor OS Deferred Install Delay</string>
+		</dict>
+		<key>forceDelayedMajorSoftwareUpdates</key>
+		<dict>
+			<key>anyOf</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Not Configured</string>
+					<key>type</key>
+					<string>null</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Configured</string>
+					<key>type</key>
+					<string>boolean</string>
+				</dict>
+			</array>
+			<key>description</key>
+			<string></string>
+			<key>property_order</key>
+			<integer>10</integer>
+			<key>title</key>
+			<string>Force Delayed Major Software Updates</string>
+		</dict>
+		<key>forceDelayedMinorSoftwareUpdates</key>
+		<dict>
+			<key>anyOf</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Not Configured</string>
+					<key>type</key>
+					<string>null</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Configured</string>
+					<key>type</key>
+					<string>boolean</string>
+				</dict>
+			</array>
+			<key>description</key>
+			<string></string>
+			<key>property_order</key>
+			<integer>20</integer>
+			<key>title</key>
+			<string>Force Delayed Minor Software Updates</string>
+		</dict>
+	</dict>
+	<key>title</key>
+	<string>com.apple.applicationaccess</string>
+</dict>
+</plist>
