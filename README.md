@@ -1,6 +1,6 @@
 Setup Instructions: Deferring macOS Updates
 
-This JSON schema defines settings related to software update management on Apple devices. It provides properties to configure the deferral of both major and minor OS updates and whether these deferrals are enforced.
+This JSON schema defines settings related to software update management on Apple devices. It provides properties to configure the deferral of both major and minor OS updates (0-90 Days) and whether these deferrals are enforced.
 
 To implement the JSON schema for deferring major and minor macOS updates, follow these steps:
 
@@ -12,6 +12,7 @@ Configuration Profile:
 - Configure Update Deferral:
     Set the values for deferral days, ranging from 1 to 90 days, according to your organizational needs.
 
+Note: I have added the XML version which can be added to the Configuration Profile Payload > Application and Custom Settings > Upload
 
 Properties:
 
